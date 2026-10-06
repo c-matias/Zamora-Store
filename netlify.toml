@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Next.js 15 is handled automatically by Netlify's current OpenNext adapter.
+# No legacy @netlify/plugin-nextjs dependency is required.
